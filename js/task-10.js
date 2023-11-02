@@ -34,4 +34,5 @@ function getRandomHexColor() {
   function destroyBoxes() {
     // Clear the contents of div#boxes once you click destroy button
     divBoxes.innerHTML = '';
+    inputElement.value = '';
   }
