@@ -17,7 +17,7 @@ function getRandomHexColor() {
   function createBoxes() {
     const amount = inputElement.value;
     // Clear previous boxes
-    destroyBoxes();
+    // destroyBoxes();
 
     // Create new boxes with background color and adding 10 px to previous
     let size = 30;
